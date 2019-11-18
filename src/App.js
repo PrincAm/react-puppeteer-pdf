@@ -1,7 +1,7 @@
 import React from "react";
 import Header from "./Header";
-import Footer, { renderFooterToString } from "./Footer";
-import Body, { renderBodyToString } from "./Body";
+import Footer from "./Footer";
+import Body from "./Body";
 import "./App.css";
 
 const App = () => (
