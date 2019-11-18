@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.App {
+  text-align: center;
+}
+
+.body > p {
+  page-break-before: always;
+}
+
+.body-greyBackground {
+  background-color: lightgrey;
+}
+
+.header-pdfPaging {
+  visibility: hidden;
+}
+
