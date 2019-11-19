@@ -31,7 +31,7 @@ const puppeteer = require("puppeteer");
     footerTemplate: footerHtml,
     margin: {
       top: "50px",
-      bottom: "240px"
+      bottom: "160px"
     }
   });
 

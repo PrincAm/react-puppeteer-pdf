@@ -16,6 +16,10 @@ code {
   text-align: center;
 }
 
+.body {
+  margin: 0 30px 0 30px;
+}
+
 .body > p {
   page-break-before: always;
 }
@@ -24,7 +28,7 @@ code {
   background-color: lightgrey;
 }
 
-.header-pdfPaging {
+.header-pdf, .footer-pdf {
   visibility: hidden;
 }
 

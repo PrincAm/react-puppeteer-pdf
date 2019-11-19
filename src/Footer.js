@@ -5,11 +5,9 @@ const Footer = () => (
     className="footer-pdf"
     style={{
       fontFamily: "Helvetica Neue",
-      fontSize: "12px",
+      fontSize: "8px",
       color: "#d3d3d3",
-      width: "100%",
-      paddingTop: "10px",
-      borderTop: "1px solid #d3d3d3"
+      margin: "10px 30px 10px 30px"
     }}
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan

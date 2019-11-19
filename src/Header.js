@@ -5,7 +5,7 @@ const Header = () => (
     className="header-pdf"
     style={{
       fontFamily: "Helvetica Neue",
-      fontSize: "12px",
+      fontSize: "10px",
       color: "#d3d3d3",
       display: "flex",
       justifyContent: "space-between",
@@ -14,9 +14,12 @@ const Header = () => (
   >
     <span />
     <div>
-      Detailed Report <span class="date"></span>
+      Detailed Report of <b>XYZ</b> - Prepared on{" "}
+      <b>
+        <span class="date"></span>
+      </b>
     </div>
-    <div className="header-pdfPaging">
+    <div style={{ marginRight: "30px" }}>
       <span class="pageNumber"></span> of <span class="totalPages"></span>
     </div>
   </div>
