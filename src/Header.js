@@ -16,11 +16,11 @@ const Header = () => (
     <div>
       Detailed Report of <b>XYZ</b> - Prepared on{" "}
       <b>
-        <span class="date"></span>
+        <span class="date" />
       </b>
     </div>
     <div style={{ marginRight: "30px" }}>
-      <span class="pageNumber"></span> of <span class="totalPages"></span>
+      <span class="pageNumber" /> of <span class="totalPages" />
     </div>
   </div>
 );

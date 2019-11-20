@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  counter-reset: page; 
 }
 
 code {
@@ -12,8 +13,31 @@ code {
     monospace;
 }
 
-.App {
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-menu {
+  overflow: hidden;
+  top: 0;
+  position: sticky;
+  height: 50px;
+  width: 100%;
   text-align: center;
+  background-color: lightsteelblue;
+}
+
+.app-footer {
+  height: 50px;
+  width: 100%;
+  text-align: center;
+  background-color: lightsteelblue;
+}
+
+.report {
+  width: 800px;
 }
 
 .body {
@@ -27,8 +51,18 @@ code {
 .body-greyBackground {
   background-color: lightgrey;
 }
-
+ 
 .header-pdf, .footer-pdf {
   visibility: hidden;
+  height: 0;
 }
 
+@media print {
+  .app {
+    visibility: hidden;
+    height: 0;
+  }
+  .report {
+    visibility: visible;
+  }
+}

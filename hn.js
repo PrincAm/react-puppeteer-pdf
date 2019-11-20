@@ -13,15 +13,10 @@ const puppeteer = require("puppeteer");
     () => document.querySelector(".footer-pdf").outerHTML
   );
 
+  // Hide header on a first page.
   await page.addStyleTag({
     content: "@page:first {margin-top: 0;}"
   });
-
-  // Create PDF from selected query, not including styles
-  // const body = await page.evaluate(
-  //   () => document.querySelector(".Body").outerHTML
-  // );
-  // await page.setContent(body);
 
   await page.pdf({
     path: "hn.pdf",
@@ -30,8 +25,8 @@ const puppeteer = require("puppeteer");
     headerTemplate: headerHtml,
     footerTemplate: footerHtml,
     margin: {
-      top: "50px",
-      bottom: "160px"
+      top: 40,
+      bottom: 130
     }
   });
 

@@ -1,14 +1,11 @@
 import React from "react";
-import Header from "./Header";
-import Footer from "./Footer";
-import Body from "./Body";
-import "./App.css";
+import Report from "./Report";
 
 const App = () => (
-  <div className="App">
-    <Header />
-    <Body />
-    <Footer />
+  <div className="app">
+    <div className="app-menu">Not visible in Print</div>
+    <Report />
+    <div className="app-footer">Not visible in Print</div>
   </div>
 );
 

@@ -7,7 +7,7 @@ const Footer = () => (
       fontFamily: "Helvetica Neue",
       fontSize: "8px",
       color: "#d3d3d3",
-      margin: "10px 30px 10px 30px"
+      margin: "0 30px 0 30px"
     }}
   >
     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan
