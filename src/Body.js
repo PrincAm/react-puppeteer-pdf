@@ -5,6 +5,7 @@ const Body = () => (
     <h2>Body</h2>
     <div className="body-greyBackground">
       <h3>Welcome</h3>
+      <a href="http://example.com/">test of link</a>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan
         feugiat tellus in sollicitudin. Mauris blandit aliquam elit ac cursus.
