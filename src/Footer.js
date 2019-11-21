@@ -1,10 +1,11 @@
 import React from "react";
+import { renderToString } from "react-dom/server";
 
 const Footer = () => (
   <div
     className="footer-pdf"
     style={{
-      fontFamily: "Helvetica Neue",
+      fontFamily: "Helvetica Neue, Helvetica, Arial, Verdana, sans-serif",
       fontSize: "8px",
       color: "#d3d3d3",
       margin: "0 30px 0 30px"
@@ -25,3 +26,5 @@ const Footer = () => (
 );
 
 export default Footer;
+
+export const renderFooterToString = () => renderToString(<Footer />);
