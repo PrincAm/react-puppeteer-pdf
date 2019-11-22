@@ -53,6 +53,70 @@ const Body = () => (
         magna metus. Vestibulum vel mattis sapien.
       </p>
     </div>
+    <table>
+      <thead>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+        <tr>
+          <td>TEST</td>
+          <td>TEST</td>
+          <td>TEST</td>
+        </tr>
+      </tbody>
+    </table>
+    <img src={"./img_lights.jpg"} alt="northern lights" />
+    <img src={"./img_lights.jpg"} alt="northern lights" />
+    <img src={"./img_lights.jpg"} alt="northern lights" />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan
       feugiat tellus in sollicitudin. Mauris blandit aliquam elit ac cursus.

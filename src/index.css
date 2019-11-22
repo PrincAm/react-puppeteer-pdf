@@ -48,6 +48,23 @@ code {
   page-break-before: always;
 }
 
+.body table {
+  width: 100%;
+}
+
+.body table thead {
+  background-color: brown;
+  font-size: 20px;
+}
+
+.body table tbody {
+  background-color: lightyellow
+}
+
+.body table td {
+  padding: 10px;
+}
+
 .body-greyBackground {
   background-color: lightgrey;
 }
